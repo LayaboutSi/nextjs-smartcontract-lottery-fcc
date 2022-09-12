@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Smart Contract Raffle Next App</title>
+        <title>Smart Contract Raffle NextJS App - Update 1</title>
         <meta name="description" content="Our smartcontract raffle" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
