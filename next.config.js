@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    loader: "imgix",
+    path: "./",
+  },
+  assetPrefix: "./",
+  exportTrailingSlash: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
